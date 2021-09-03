@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;;
+  }
+body{
+    font-family: poppins;
+    background-color: #10064E;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+  nav{
+
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    position: relative;
+  }
+  .logo{
+    flex-basis: 20%;
+  }
+  .logo img{
+    top: -40px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+  }
+  .navlinks{
+    flex: 1;
+    text-align: right;
+  }
+  .navlinks ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    list-style: none;
+  }
+  .navlinks ul li a button{
+    padding: 5px;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .navlinks button:hover{
+    border-bottom: 3px solid white;
+  }
+  .navlinks #about{   /* unga title oodaa id eluthunga*/
+    border-bottom: 3px solid white !important; 
+  }
+  .wrapper{
+    width: 85%;
+    margin: 20px auto;
+  }
+  .wrapper h2{ 
+    font-weight: 800 ;
+    width: 70px;
+    padding-top: 7px;
+    color: white;
+    margin-top:70px;
+    border-top: 3px solid white;
+  }
+ .topics h1{
+     color: rgb(38, 176, 240);
+     padding-top: 40px;
+ }
+ .topics p{
+     color: white;
+     padding-top: 20px;
+     font-size: 18px;
+     line-height: 30px;
+     font-family: cursive;
+ }
+ .topics p span{
+   margin-left: 70px;
+ }
+ .topics ul{
+   margin-top: 20px;
+ }
+ .topics ul li{
+   margin-left: 70px;
+   margin-top: 10px;
+   list-style: none;
+   line-height: 30px;
+   color: aliceblue;
+   font-size: 18px;
+   font-family: cursive;
+ }
+ #facalties-cards{
+   display: flex;
+   margin: 20px auto;
+   padding: 0px 15%;
+ }
+ #facalties-cards .f1 img{
+   border-radius: 50%;
+   width: 180px;
+   height: 180px;
+   margin: 15px 40px;
+   color: bisque;
+ }
+ .facalties h1{
+   text-align: center;
+ }
+ 
+ #facalties-cards .f1{
+   width: 100%;
+   backdrop-filter: blur(8px) saturate(156%);
+   -webkit-backdrop-filter: blur(8px) saturate(156%);
+   background-color: rgba(255, 255, 255, 0.3);
+   border-radius: 12px;
+   border: 1px solid rgba(209, 213, 219, 0.3);
+   text-align: center;
+   color: aliceblue;
+/* background-color: rgba(224, 224, 224, 0.459);
+   border-top: 4px solid rgb(38, 176, 240);
+   box-shadow: 5px 10px 5px rgb(38, 176, 240);
+   border-bottom: 4px solid rgb(38, 176, 240);
+   border-radius: 30px; */
+   height: 400px;
+   margin: 20px;
+ }
+ /* #facalties-cards .f2{
+  width: 100%;
+  background-image: url("../assets/saravanan.jpeg");
+  background-color: antiquewhite;
+  border: 2px solid white;
+  border-radius: 30px;
+  height: 400px;
+  margin: 20px;
+}
+#facalties-cards .f3{
+  width: 100%;
+  background-image: url("../assets/senthilS.jpeg");
+  background-color: antiquewhite;
+  border: 2px solid white;
+  border-radius: 30px;
+  height: 400px;
+  margin: 20px;
+} */
+#alumuni-cards{
+  display: flex;
+  margin: 20px auto;
+  padding: 0px 15%;
+}
+.alumuni h1{
+  text-align: center;
+  font-size: x-large
+ 
+}
+#alumuni-cards .f1 img{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin: 15px 40px;
+  color: bisque;
+}
+
+#alumuni-cards .f1{
+  width: 100%;
+  backdrop-filter: blur(8px) saturate(156%);
+  -webkit-backdrop-filter: blur(8px) saturate(156%);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  
+/* background-color: rgba(224, 224, 224, 0.459);
+  border-top: 4px solid rgb(38, 176, 240);
+  box-shadow: 5px 10px 5px rgb(38, 176, 240);
+  border-bottom: 4px solid rgb(38, 176, 240);
+  border-radius: 30px; */
+  height: 400px;
+  margin: 20px;
+}

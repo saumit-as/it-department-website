@@ -1,0 +1,195 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.wrapper {
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.title {
+  text-align: center;
+}
+.title h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 10px;
+  /* border-bottom: 5px solid #08446c; */
+}
+.title h2::after {
+  display: block;
+  top: 130%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 145px;
+  background-color: #08446c;
+}
+.title p {
+  margin-top: 30px;
+  color: #fff;
+  line-height: 30px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.topics {
+  display: flex;
+  margin: 0px 250px;
+  height: 50%;
+}
+.card {
+  position: relative;
+  background-size: cover;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  transition: all 250ms ease;
+  overflow: hidden;
+}
+
+.card::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: rgb(41, 41, 41);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: all 250ms ease;
+
+  opacity: 0;
+}
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.card .card-text {
+  display: block;
+  width: 400px;
+  padding-left: -20px;
+  position: absolute;
+  z-index: 2;
+  transition: all 250ms ease;
+  opacity: 0;
+}
+.topics a {
+  display: block;
+}
+.card:hover .card-text {
+  opacity: 1;
+}
+.card:hover::after {
+  opacity: 0.8;
+}
+.ls-topics .card {
+  height: 350px;
+  width: 500px;
+}
+.rs-topics .card {
+  height: 540px;
+  width: 500px;
+}
+.rs-topics {
+  width: 45%;
+  margin: 0px 30px;
+  display: block;
+}
+.wrapper h3 {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.ls-topics .card h3 {
+  padding-top: 50%;
+}
+#t4 h3 {
+  padding-top: 90%;
+}
+#t5 h3 {
+  padding-top: 90%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+.about {
+  position: relative;
+
+  display: flex;
+}
+.about .content-box {
+  margin-left: 40%;
+  background: #08446c;
+  padding: 150px;
+  width: 80%;
+}
+.about .imgbx {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+
+.about .heading {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.about .text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+#read-more {
+  display: inline-block;
+  background: none;
+  margin-top: 5px;
+  margin-left: 0px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: all 250ms ease;
+  letter-spacing: 2px;
+}
+#read-more:hover {
+  border-bottom: 2px solid white;
+}
+.about img {
+  object-fit: cover;
+  width: 625px;
+  height: 300px;
+  transform: scale(1.2);
+}
+
+.content-box .heading::after {
+  display: block;
+  top: 120%;
+  left: 0%;
+  border-radius: 10px;
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 130px;
+  background-color: #fff;
+}
+.content-box .text {
+  margin-top: 20px;
+}

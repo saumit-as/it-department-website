@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box ;
+
+}
+
+.section1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url("../assets/cc.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+}
+
+.section1 h2{
+    position: absolute;
+    font-size: 55px;
+    color: purple;
+    left: 5%;
+    top: 38%;
+}
+.section1 .button{
+    border-radius: 25px;
+    background: linear-gradient(to right,rgb(124,29,134),rgb(24,27,82));
+    font-size: 23px;
+    color: white;
+    padding: 14px 45px;
+    position: absolute;
+    left: 5%;
+    top:70% ;
+    border: none;
+    text-decoration: none;
+    
+}
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .content{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 100%;
+    margin-top: 130px;
+   
+}
+
+.content h1{
+    font-size: 32px;
+    color: red;
+    padding: 20px 0;
+
+}
+
+.content h3{
+    font-size: 27px;
+    color:rgb(40, 176, 230);
+    padding: 12px 0;
+}
+
+.content p{
+    line-height: 23px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.content li{
+    left: 120px;
+    margin-left: 45px;
+    font-size: 20px;
+}
